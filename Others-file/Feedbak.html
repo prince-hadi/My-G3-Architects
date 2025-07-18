@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedbake-form </title>
+    <link rel="stylesheet" href="style/Feedbak-form.css">
+    <style>
+        fieldset{
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.352);
+    background-color:  azure;
+    font-size: 1.3em;
+    
+}
+
+fieldset #submit{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px 30px;
+    border-radius: 30px;
+
+}
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <h1>Your feedbak Form </h1>
+        <legend>feedbake info </legend>
+        <label for="">Write your feedbake</label>
+        <textarea name="feedbake" rows="5" cols="30" id="feedbake" placeholder="Write your feedbake"></textarea> <br> <br>
+        <label for="">select a feedbak option</label>
+        <select name="" id="">
+            <option value="">select a option</option>
+            <option value="">good</option>
+            <option value="">best</option>
+            <option value="">batter</option>
+            <option value="">bad</option>
+
+        </select> <br><br>
+
+        <input id="submit" type="submit">
+    </fieldset>
+</body>
+
+</html>

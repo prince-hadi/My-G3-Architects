@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile Card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #00b09b, #96c93d);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .profile-card {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 350px;
+      transition: 0.3s;
+    }
+
+    .profile-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .profile-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #96c93d;
+      margin-bottom: 15px;
+    }
+
+    .profile-card h2 {
+      font-size: 24px;
+      color: #333;
+      margin: 10px 0 5px;
+    }
+
+    .profile-card p {
+      color: #555;
+      font-size: 16px;
+      margin: 5px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #f0f0f0;
+      color: #4CAF50;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <!-- ✅ তোমার ছবি এখানে বসাও -->
+    <img src="6161139051948786753.jpg" alt="Hadiuzzaman Photo">
+    
+    <h2>MD Hadiuzzaman</h2>
+    <p>Web Designer & Student</p>
+    <p>Final Year Honours</p>
+    <p>Khulna, Bangladesh</p>
+    <p>Height: 5'4" | Weight: 78 kg</p>
+    <div class="tag">WebDesigner</div>
+  </div>
+
+</body>
+</html>
