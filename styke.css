@@ -16,7 +16,7 @@
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 20px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .header {
   background-color: #FF900E1A;
@@ -87,7 +87,7 @@
 .Features-arcitec-containre{
     justify-content: space-around;
     gap: 30px;
-    margin-top: 50px;
+    margin-top: 95px;
     align-items: center;
 }
 
@@ -120,7 +120,7 @@
 .Features-arcitec{
     justify-content: space-between;
     gap: 100px;
-    margin-top: 20px;
+    margin-top: 95px;
 }
 
 .Features-arcitec-title h1
@@ -170,6 +170,93 @@
     margin-top: -120px;
     margin-left: -80px; 
 }
+.Some-Facts-container{
+    margin-top: 95px;
+}
+.facts-title h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.facts-title p{
+    color: #727272;
+    max-width: 542px;
+    margin-bottom: 80px;
+}
+
+.Facts-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* width: 169px; */
+    text-align: center;
+    align-items: center;
+    
+}
+
+.box{
+    border: 2px solid #FF900E;
+    padding: 33px 33px;
+    border-radius: 5px;
+
+
+}
+.box img {
+    
+    margin-bottom: 5px;
+    
+}
+.box h3{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #424242;
+
+}
+.box p{
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+.Sponspors-container{
+    margin-top: 95px;
+    text-align: center;
+}
+
+.Sponspors-container h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #131313;
+
+}
+
+.Sponspors-container p{
+    color: #727272;
+    margin-bottom: 50px;
+    /* max-width: 542px; */
+}
+
+.sponspors-box{
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.sponspors-box img{
+    color: #2EBD59
+}
+.footer{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 110px;
+}
     
 
 @media screen and (max-width: 768px) {
@@ -212,6 +299,29 @@
         margin-top: 26px;
     margin-left: 26px; 
     }
+
+    .Facts-box {
+        flex-direction: column;
+    }
+    .box{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .sponspors-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponspors-box img {
+        max-width: 100%;
+        margin-bottom: 55px;
+    }
+
+    .footer{
+    padding: 20px 10px;
+    max-width: 90%;
+    margin-top: 20px;
+}
     
 }
 
@@ -227,12 +337,42 @@
     .img-arcitec img{
         max-width: 100%;
         align-items: center;
-    margin-left: 27px; 
+    margin-left: 140px; 
 
     }
 
     #p-btn{
     margin-top: 45px;
-    margin-left: 181px; 
+    margin-left: 345px; 
     }
+    .Facts-box {
+        flex-direction: column;
+        align-items: center;
+        /* width: 80%;
+        margin-bottom: 20px; */
+    }
+    .facts-title{
+        text-align: center;
+    }
+    .facts-title p{
+        max-width: 52%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .box {
+        width: 70%;
+        margin-bottom: 60px;
+    }
+
+    .sponspors-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponspors-box img {
+        max-width: 100%;
+        margin-bottom: 55px;
+    }
+
+     
 }
