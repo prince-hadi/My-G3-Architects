@@ -5,8 +5,8 @@
 .plus-jakarta-sans {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; 
+  /* font-weight: <weight>;
+  font-style: normal;  */
 }
 .display-flex{
   display: flex;
@@ -16,6 +16,7 @@
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 20px;
+  margin-bottom: 100px;
 }
 .header {
   background-color: #FF900E1A;
@@ -78,9 +79,14 @@
     margin-bottom: 20px;
 }
 
+.praimary-btn{
+    padding: 18px 24px;
+
+}
+
 .Features-arcitec-containre{
     justify-content: space-around;
-    gap: 40px;
+    gap: 30px;
     margin-top: 50px;
     align-items: center;
 }
@@ -90,7 +96,7 @@
     height: 100%;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 5px;
+   gap: 20px;
 }
 
 .text-content-2{
@@ -108,7 +114,63 @@
 }
 #p-tex{
     color: #727272;
+    margin-bottom: 30px;
 }
+
+.Features-arcitec{
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.Features-arcitec-title h1
+{
+    font-size: 2.7rem;
+    font-weight: 900;
+    border-left: 3px solid #FF900E ;
+    padding-left: 10px;
+    max-width: 441px;
+}
+.Features-arcitec-title p{
+    color: #727272;
+}
+.card{
+    background-color: #fff;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.058) ;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+.card h4{
+    margin-top: 5px;
+    margin-bottom:8px;
+}
+
+.card p{
+    color: #727272;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.img-arcitec img{
+    /* max-width: 100%;
+    height: auto; */
+}
+
+#btn{
+    font-size: 3.5rem;
+
+}
+#p-btn{
+     padding: 30px 33px;
+    box-sizing: border-box;
+    margin-top: -120px;
+    margin-left: -80px; 
+}
+    
 
 @media screen and (max-width: 768px) {
     .navbar {
@@ -137,13 +199,40 @@
     .img-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .Features-arcitec{
+        flex-direction: column;
+        margin: auto;
+
+    }
+
+    .img-arcitec img{
+        max-width: 100%;
+    }
+    #p-btn{
+        margin-top: 26px;
+    margin-left: 26px; 
+    }
     
 }
 
 @media screen  and (min-width: 576px) and (max-width: 1024px) {
-    .Features-arcitec-containre {
+    .Features-arcitec-containre, .Features-arcitec {
         flex-direction: column;
         align-items: center;
     }
 
+    .Features-arcitec{
+        margin: auto;
+    } 
+    .img-arcitec img{
+        max-width: 100%;
+        align-items: center;
+    margin-left: 27px; 
+
+    }
+
+    #p-btn{
+    margin-top: 45px;
+    margin-left: 181px; 
+    }
 }
